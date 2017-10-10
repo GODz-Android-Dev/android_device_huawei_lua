@@ -58,7 +58,6 @@ DEVICE_SCREEN_HEIGHT := 800
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 TARGET_RECOVERY_FSTAB := device/micromax/a106/recovery/recovery.fstab
-BOARD_HAS_FLIPPED_SCREEN := true
 
 RECOVERY_VARIANT := carliv
 
@@ -68,3 +67,4 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 DEVICE_RESOLUTION := 480x800
 BOARD_HAS_MTK_CPU := true
 BOARD_NEEDS_MTK_GETSIZE := true
+BOARD_HAS_FLIPPED_SCREEN := true
